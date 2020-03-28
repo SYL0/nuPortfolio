@@ -1,0 +1,53 @@
+@import 'variables';
+
+.nav {
+    font-family: "Revalia";
+    text-align: center;
+  
+    margin-top: 30px;
+
+    &__logo {
+      text-decoration: none;
+      color: $text-color;
+      font-size: $nav-font;
+    }
+
+    &__btns {
+      list-style-type: none;
+    
+      display: flex;
+      justify-content: space-between;
+    
+      width: 75vw;
+      padding: 30px 0 0 0;
+    }
+
+    &__btn {
+      text-decoration: none;
+      color: $text-color;
+      font-size: $nav-button-font;
+    }
+    
+    &__projects {
+      height: 20vh;
+    }
+    
+    .line {
+      background-color: white;
+      height: 1.5px;
+      width: 100%;
+    }
+  }
+
+  
+  @media only screen and (min-width: 768px) {
+  
+    .nav__logo {
+      
+      font-size: $nav-font * 1.2;
+    }
+
+    .nav__btn {
+      font-size: $nav-button-font * 1.2;
+    }
+  }

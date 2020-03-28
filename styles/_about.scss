@@ -39,3 +39,15 @@
       font-size: $paragraph-font * 1.5;
     }
   }
+
+  
+  @media only screen and (min-width: 1280px) {
+    .about__headline {
+      font-size: $headline-font * 1.75;
+    }
+    .about__text {
+      font-size: $paragraph-font * 1.75;
+    }
+
+  }
+

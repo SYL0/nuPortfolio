@@ -208,8 +208,8 @@
 .projects .mini {
   height: 100px;
   width: 100%;
-  -ms-grid-row: 8;
-  grid-row: 8;
+  -ms-grid-row: 9;
+  grid-row: 9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

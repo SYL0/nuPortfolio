@@ -20,7 +20,9 @@ const descriptionBox = document.getElementById("description-box");
 let counter = 0;
 
 rightArrow.addEventListener("click", nextSlide);
+rightArrow.addEventListener("touchstart", nextSlide);
 leftArrow.addEventListener("click", prevSlide);
+leftArrow.addEventListener("touchstart", prevSlide);
 
 function nextSlide() {
   projectImg.animate([{ opacity: "0.1" }, { opacity: "1" }], {

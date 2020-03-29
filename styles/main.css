@@ -127,48 +127,6 @@
       grid-template-rows: repeat(10, 10vh);
 }
 
-.projects .mini {
-  height: 100px;
-  width: 100%;
-  -ms-grid-row: 8;
-  grid-row: 8;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.projects .mini__1 {
-  height: 75px;
-  width: 75px;
-  background: url("/img/project-1.png") center/cover no-repeat;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 1px 10px black;
-          box-shadow: 1px 1px 10px black;
-}
-
-.projects .mini__2 {
-  height: 75px;
-  width: 75px;
-  background: url("/img/project-2.png") center/cover no-repeat;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 1px 10px black;
-          box-shadow: 1px 1px 10px black;
-}
-
-.projects .mini__3 {
-  height: 75px;
-  width: 75px;
-  background: url("/img/project-3.png") center/cover no-repeat;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 1px 10px black;
-          box-shadow: 1px 1px 10px black;
-}
-
 .projects__main {
   -ms-grid-row: 2;
   -ms-grid-row-span: 5;
@@ -245,6 +203,48 @@
   grid-row: 2/3;
   font-size: 16px;
   text-align: center;
+}
+
+.projects .mini {
+  height: 100px;
+  width: 100%;
+  -ms-grid-row: 8;
+  grid-row: 8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .mini__1 {
+  height: 75px;
+  width: 75px;
+  background: url("/img/project-1.png") center/cover no-repeat;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+}
+
+.projects .mini__2 {
+  height: 75px;
+  width: 75px;
+  background: url("/img/project-2.png") center/cover no-repeat;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+}
+
+.projects .mini__3 {
+  height: 75px;
+  width: 75px;
+  background: url("/img/project-3.png") center/cover no-repeat;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
 }
 
 @media only screen and (min-width: 766px) {

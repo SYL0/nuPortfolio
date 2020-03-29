@@ -186,6 +186,7 @@
   -ms-flex-item-align: center;
       align-self: center;
   height: 30px;
+  cursor: pointer;
 }
 
 .projects .project1__arrow--left {

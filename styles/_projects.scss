@@ -29,8 +29,8 @@
       &__img {
         height: $main-project-height / 6;
         width: $main-project-width / 6;
-        background: grey;
         box-shadow: $project-shadow;
+        background: url('/img/project-0.png')center/cover no-repeat;
       
         grid-column: 2/3;
         grid-row: 1/2;
@@ -57,7 +57,7 @@
         grid-row: 2/3;
       
         font-size: $paragraph-font;
-        text-align: justify;
+        text-align: center;
       }
     }
   }

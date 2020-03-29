@@ -167,9 +167,9 @@
 .projects .project1__img {
   height: 120px;
   width: 213.33333px;
-  background: grey;
   -webkit-box-shadow: 1px 1px 10px black;
           box-shadow: 1px 1px 10px black;
+  background: url("/img/project-0.png") center/cover no-repeat;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -208,7 +208,7 @@
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   font-size: 16px;
-  text-align: justify;
+  text-align: center;
 }
 
 @media only screen and (min-width: 766px) {

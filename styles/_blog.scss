@@ -1,10 +1,10 @@
 .blog {
     display: grid;
-    grid-template-rows: repeat(13, 10vh);
+    grid-template-rows: repeat(20, 50px);
     font-family: "Montserrat", sans-serif;
 
     &__section {
-      grid-row: 2/6;
+      grid-row: 2/10;
     }
     &__header {
     
@@ -33,7 +33,7 @@
     align-items: center;
     flex-direction: column;
 
-    grid-row: 8/11 ;
+    grid-row: 12;
 
     &__section {
       border: 1px solid white;
@@ -62,7 +62,6 @@
     }
   }
 
-
   @media only screen and (min-width: 768px) {
 
     .blog {
@@ -79,7 +78,6 @@
     
 
     .thumb {
-      grid-row: 7/11;
       &__section {
         height: 150px;
         width: 300px;

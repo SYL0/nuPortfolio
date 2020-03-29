@@ -13,6 +13,11 @@
 @import 'variables';
 
 
+body {
+  min-height: 100vh;
+  background: $background-color;
+
+}
 
 @font-face {
   font-family: "Revalia";
@@ -30,6 +35,7 @@
   color: $text-color;
 }
 .portfolio {
+  min-height: 100%;
   width: 80%;
 }
 .portfolio--homepage {

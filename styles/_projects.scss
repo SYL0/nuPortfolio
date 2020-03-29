@@ -97,20 +97,4 @@
     justify-self: center;
   }
 
-  .projects .project__left {
-    grid-template-rows: 3/7;
-    grid-template-columns: 1/3;
-    display: flex;
-    flex-direction: column;
-  }
-  .projects .project1__small {
-    height: $main-project-height / 10;
-    width: $main-project-width / 10;
-    background: grey;
-  }
-  .projects .project__right {
-    grid-template-columns: 9/11;
-    display: flex;
-    flex-direction: column;
-  }
 }

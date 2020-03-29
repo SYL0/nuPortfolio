@@ -123,15 +123,15 @@
   height: 70vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (10vh)[7];
-      grid-template-rows: repeat(7, 10vh);
+  -ms-grid-rows: (10vh)[10];
+      grid-template-rows: repeat(10, 10vh);
 }
 
 .projects .mini {
   height: 100px;
   width: 100%;
-  -ms-grid-row: 7;
-  grid-row: 7;
+  -ms-grid-row: 8;
+  grid-row: 8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -4,16 +4,16 @@ const projectImg = document.getElementById("project-img");
 let projectLink = document.getElementById("project-link");
 
 const descriptions = [
-  " Dynamic landing page for an upcoing Bar-Lounge / Clothing Store.",
+  " Dynamic landing page for an upcoming Bar-Lounge / Clothing Store.",
   "Blog Application Created with Node.JS and MongoDB",
-  "Meditation Application",
-  "HTML Email based on next-generation consoles.",
+  "Meditation Application created with HTML, CSS and JavaScript",
+  "To-do application created with HTML, CSS and JavaScript",
 ];
 const links = [
   "https://github.com/SYL0/nv-lounge",
-  "https://bit.ly/2vX4mC9",
+  "https://github.com/SYL0/nu-blog",
   "https://github.com/SYL0/meditations",
-  "https://github.com/SYL0/nextGenNewsletter",
+  "https://github.com/SYL0/Quest",
 ];
 const descriptionBox = document.getElementById("description-box");
 

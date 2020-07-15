@@ -5,15 +5,15 @@ let projectLink = document.getElementById("project-link");
 
 const descriptions = [
   " Dynamic landing page for an upcoing Bar-Lounge / Clothing Store.",
-  "Javascript Digital Clock",
-  "HTML Email based on Afrofuturism.",
-  "HTML Email based on next-generation consoles."
+  "Blog Application Created with Node.JS and MongoDB",
+  "Meditation Application",
+  "HTML Email based on next-generation consoles.",
 ];
 const links = [
-  "https://bit.ly/2yiKcDp",
+  "https://github.com/SYL0/nv-lounge",
   "https://bit.ly/2vX4mC9",
-  "https://bit.ly/2xtASwa",
-  "https://bit.ly/2QUQDTv"
+  "https://github.com/SYL0/meditations",
+  "https://github.com/SYL0/nextGenNewsletter",
 ];
 const descriptionBox = document.getElementById("description-box");
 
@@ -27,7 +27,7 @@ leftArrow.addEventListener("touchstart", prevSlide);
 function nextSlide() {
   projectImg.animate([{ opacity: "0.1" }, { opacity: "1" }], {
     duration: 1000,
-    fill: "forwards"
+    fill: "forwards",
   });
   if (counter === 3) {
     counter = -1;
@@ -43,7 +43,7 @@ function nextSlide() {
 function prevSlide() {
   projectImg.animate([{ opacity: "0.1" }, { opacity: "1" }], {
     duration: 1000,
-    fill: "forwards"
+    fill: "forwards",
   });
 
   if (counter === 0) {
